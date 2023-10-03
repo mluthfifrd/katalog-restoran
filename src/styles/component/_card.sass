@@ -1,0 +1,33 @@
+#card-container
+  display: flex
+  width: 100%
+  flex-wrap: wrap
+  gap: 30px
+  justify-content: center
+  max-width: 1200px
+  margin: 0 auto
+  margin-bottom: 50px
+
+.card
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  border-radius: 10px
+  transition: 0.3s
+  padding: 10px
+  width: 250px
+  height: fit-content
+
+  &:hover
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+
+  img
+    width: 250px
+    height: 250px
+
+  .locationResto
+    border-radius: 0 10px 10px 0
+    background: #FFAE6D
+    z-index: 1
+    position: relative
+    bottom: 16em
+    padding: 10px
+    width: fit-content
