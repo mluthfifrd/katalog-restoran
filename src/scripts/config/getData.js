@@ -5,6 +5,7 @@ const cardContainer = document.getElementById('card-container') // Container unt
 try {
   for (const restaurant of arr.restaurants) {
     const card = document.createElement('div')
+    card.id = 'maincontent'
     card.className = 'card'
 
     const imgResto = document.createElement('img')
